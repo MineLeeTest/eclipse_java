@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">有你互联</string>
+    <string name="menu_settings">Settings</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="user_login_account">帐号</string>
+    <string name="user_login_pwd">密码</string>
+    <string name="user_login_exit">退出</string>
+    <string name="user_login_login">登录</string>
+    <string name="open_door">开门</string>
+    <string name="open_cooler">开启制冷</string>
+    <string name="close_cooler">关闭制冷</string>
+    <string name="title_activity_mananger">ManangerActivity</string>
+    <string name="user_pwd_update">分拣配货</string>
+    <string name="user_pwd_Distribution">配送与回收</string>
+    <string name="user_pwd_Administration">管理</string>
+    <string name="user_pwd_Unlock">解锁</string>
+    <string name="user_pwd_UnlockNow">应急开锁</string>
+    <string name="title_activity_sorting">SortingActivity</string>
+    <string name="user_pwd_barcode">商品条码</string>
+    <string name="user_pwd_qrcode">保鲜盒二维码</string>
+    <string name="title_activity_main_administation">MainAdministationActivity</string>
+
+</resources>

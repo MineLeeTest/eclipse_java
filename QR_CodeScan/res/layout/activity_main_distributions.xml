@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <include
+        android:id="@+id/MDIinclude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_main_title" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:id="@+id/MATVQRcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请点击【开始扫码】，扫描扩展架中的二维码"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/MABTNQRscan"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="0dip"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:onClick="Click"
+                android:text="开始扫码"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/MABTNUnlockNow"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="0dip"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:onClick="Click"
+                android:text="@string/user_pwd_UnlockNow"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

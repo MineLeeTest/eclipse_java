@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:gravity="center" >
+
+        <TableRow android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_login" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="0dip"
+            android:background="@drawable/shape_top"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/user_login_account" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/ULETAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dip"
+                android:layout_marginStart="20dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint=""
+                android:singleLine="true"
+                android:text="李飞龙" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="0dip"
+            android:background="@drawable/shape_bottom"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/user_login_pwd" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/ULETPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dip"
+                android:layout_marginStart="20dip"
+                android:layout_weight="1"
+                android:background="@null"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:text="365xyd" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/ULBTNExit"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="0dip"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:onClick="Click"
+                android:text="@string/user_login_exit"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/ULBTNLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="0dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="0dip"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:onClick="Click"
+                android:text="@string/user_login_login"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TableRow android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/copyright" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
